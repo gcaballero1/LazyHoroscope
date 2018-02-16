@@ -10,9 +10,9 @@ int lucky;
 string name1;
 string name2;
 
-  cout<<"What is your first Name?\n";
+  cout<<"What is your first name?\n";
   cin>>name1;
-  cout<<"What is your Last Name?\n";
+  cout<<"What is your last name?\n";
   cin>>name2;
 
   string nickname;
