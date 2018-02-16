@@ -10,9 +10,9 @@ int lucky;
 string name1;
 string name2;
 
-  cout<<"What's your first Name?\n";
+  cout<<"What is your first Name?\n";
   cin>>name1;
-  cout<<"What's your Last Name?\n";
+  cout<<"What is your Last Name?\n";
   cin>>name2;
 
   string nickname;
@@ -22,7 +22,7 @@ string name2;
   nickname+= ".";
 
   cout<<"Welcome, "<<nickname<<", here is your fortune...\n";
-  cout<<"Your lucky number is " <<name1.length()<<endl;
+  cout<<"your lucky number is " <<name1.length()<<endl;
 
   if (name1[0] =='a' ||name1[0] == 'A' ||name1[0] == 'e'
   ||name1[0] == 'E' ||name1[0] == 'i' ||name1[0] == 'I'
